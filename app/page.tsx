@@ -5,7 +5,6 @@ import { Header } from "@/components/header";
 import { HeroSection } from "@/components/hero-section";
 import { PortfolioSection } from "@/components/portfolio-section";
 import { ServicesSection } from "@/components/services-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
 
 export default function HomePage() {
 	return (
@@ -16,7 +15,7 @@ export default function HomePage() {
 				<ServicesSection />
 				<DifferentialsSection />
 				<PortfolioSection />
-				<TestimonialsSection />
+				{/* <TestimonialsSection /> */}
 				<CtaSection />
 			</main>
 			<Footer />
